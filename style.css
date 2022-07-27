@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rebeccapurple;
+  padding: 100px auto;
+}
+h1 {
+  margin: 200px auto 30px auto;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.conuntdown-container * {
+  color: white;
+}
+.conuntdown-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.conuntdown-container .days {
+  margin-right: 30px;
+  /* font-family: verdana; */
+}
+.conuntdown-container .days-c span {
+  font-size: 2rem;
+  font-family: verdana;
+}
+.conuntdown-container .hours-c {
+  margin-right: 30px;
+}
+.conuntdown-container .hours-c span {
+  font-size: 2rem;
+  font-family: verdana;
+  margin-left: 20px;
+}
+.conuntdown-container .mins-c {
+  margin-right: 30px;
+}
+.conuntdown-container .mins-c span {
+  font-size: 2rem;
+  font-family: verdana;
+}
+/* conuntdown-container .seconds {
+  margin-right: 30px;
+} */
+.conuntdown-container p.big-text {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.conuntdown-container .seconds-c span {
+  font-size: 2rem;
+  font-family: verdana;
+}
